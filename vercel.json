@@ -1,4 +1,10 @@
-{
-  "functions": { "api/image.py": { "runtime": "python3.9" } },
-  "rewrites": [{ "source": "/api/image", "destination": "/api/image.py" }]
-}
+ {
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.9"
+    }
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index.py" }
+  ]
+ }
