@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/api/image", "destination": "https://i.pinimg.com/474x/df/96/d8/df96d84e03317bba5b9961e75382ec37.jpg", "permanent": false }
+  ]
+}
